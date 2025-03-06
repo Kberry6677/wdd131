@@ -46,7 +46,7 @@ main{
     font-family: "Miniver", cursive;
     font-size: medium;
     font-weight: lighter;
-    width: 750px;
+    max-width: 750px;
     justify-self: center;
     display:grid;
 }

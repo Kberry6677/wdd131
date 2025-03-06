@@ -1,0 +1,72 @@
+:root{
+    margin: 25px;
+    --primary-color:black;
+    --secondary-color:white;
+    --accent-color-1:maroon;
+    --accent-color-2: gray;
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 500px;
+    width: auto;
+}
+
+header{
+    background-color: var(--primary-color);
+    font-family: "Sour Gummy", sans-serif;
+    display:grid;
+    align-content: space-between;
+    grid-template-rows: 3fr 1fr;
+    color: white;
+    grid-column: 1/5;
+}
+
+nav{
+    background-color: var(--accent-color-2);
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main{
+    grid-column: 1/4;
+    background-color: var(--accent-color-1);
+    color:white;
+    font-family: "Miniver", cursive;
+    font-size: medium;
+    font-weight: lighter;
+    width: 750px;
+    justify-self: center;
+    display:grid;
+}
+
+h2{
+    text-decoration: underline; 
+    text-align: center;
+}
+
+p{
+    margin: 25px;
+}
+
+section{
+    display: flex;
+}
+
+footer{
+    background-color: var(--accent-color-2);
+    font-family: "Sour Gummy", sans-serif;
+    color:black;
+    grid-column: 1/5;
+}

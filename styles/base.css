@@ -17,18 +17,26 @@ body{
 header{
     background-color: var(--primary-color);
     font-family: "Sour Gummy", sans-serif;
+    font-size: larger;
     display:grid;
     align-content: space-between;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: 2fr 1fr;
     color: white;
     grid-column: 1/5;
 }
 
+#course-title{
+    display:block;
+    text-align: center;
+    padding-top: 10px;
+}
+
 nav{
-    background-color: var(--accent-color-2);
-    color:black;
+    background-color: var(--secondary-color);
+    color:var(--accent-color-1);
     display: flex;
     justify-content: space-evenly;
+    border: 5px solid var(--primary-color);
 }
 
 nav a{
@@ -65,8 +73,8 @@ section{
 }
 
 footer{
-    background-color: var(--accent-color-2);
+    background-color: var(--primary-color);
     font-family: "Sour Gummy", sans-serif;
-    color:black;
+    color:white;
     grid-column: 1/5;
 }
